@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-labelledby="title desc">
+<title id="title">Positive depth does not mean inside the frame</title>
+<desc id="desc">In a 640 pixel wide image the projected points at u 0 and u 620 are inside the chosen half open bounds. The point at u 640 is outside. Points at zero or negative depth have no pixel in this audit.</desc>
+<rect width="840" height="470" rx="24" fill="#e9f4f2"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#163b40">
+<text x="40" y="65" font-size="38" font-weight="700">Depth first, frame bounds next</text>
+<text x="40" y="112" font-size="25">For the projected points below, v = 240 px.</text>
+<rect x="78" y="198" width="640" height="66" rx="9" fill="#c6e5db"/>
+<path d="M78 232H766" stroke="#13615a" stroke-width="4"/>
+<path d="M718 177V286" stroke="#9a491e" stroke-width="3" stroke-dasharray="5 5"/>
+<circle cx="78" cy="232" r="10" fill="#13615a"/>
+<circle cx="698" cy="232" r="10" fill="#13615a"/>
+<circle cx="718" cy="232" r="9" fill="#e9f4f2" stroke="#9a491e" stroke-width="4"/>
+<path d="M698 222L660 174" stroke="#13615a" stroke-width="2" fill="none"/>
+<text x="57" y="315" font-size="31" font-weight="700">0</text>
+<text x="602" y="164" font-size="31" font-weight="700">620</text>
+<text x="687" y="315" font-size="31" font-weight="700" fill="#803813">640</text>
+<text x="53" y="358" font-size="27">Included</text>
+<text x="658" y="358" font-size="27" fill="#803813">Excluded</text>
+<text x="40" y="421" font-size="26">If Z ≤ 0, this audit reports no pixel.</text>
+</g></svg>

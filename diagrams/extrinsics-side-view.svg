@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-labelledby="title desc">
+<title id="title">Look along world X</title>
+<desc id="desc">Top view in the world X and Z plane. Camera forward is world positive X. Camera right is world negative Z. At two metres forward and half a metre right the example point projects to u equals 520.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#13615a"/></marker></defs>
+<rect width="840" height="470" rx="24" fill="#e9f4f2"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#163b40">
+<text x="42" y="61" font-size="38" font-weight="700">Look along world +X</text>
+<text x="42" y="102" font-size="26">Top view: world X and Z only</text>
+<path d="M140 228H722 M140 365V145" stroke="#b0ceca" stroke-width="2" stroke-dasharray="7 8"/>
+<path d="M254 228H690" stroke="#13615a" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M254 228V355" stroke="#13615a" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M254 228L600 314" stroke="#9a491e" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M600 228V314" stroke="#8a654a" stroke-width="2" stroke-dasharray="5 5"/>
+<circle cx="254" cy="228" r="12" fill="#13615a"/>
+<circle cx="600" cy="228" r="8" fill="#13615a"/>
+<circle cx="600" cy="314" r="12" fill="#9a491e"/>
+<text x="36" y="217" font-size="28" font-weight="700">Camera C</text>
+<text x="278" y="204" font-size="29" font-weight="700">Forward = +X</text>
+<text x="440" y="264" font-size="24">2 m forward</text>
+<text x="617" y="319" font-size="28" font-weight="700">Point P</text>
+<text x="548" y="357" font-size="24">0.5 m right</text>
+<text x="40" y="402" font-size="29" font-weight="700">Right = −Z</text>
+<text x="40" y="440" font-size="24">Pixel u = 320 + 800 × 0.5 / 2 = 520</text>
+</g></svg>
